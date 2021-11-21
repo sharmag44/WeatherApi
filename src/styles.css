@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #7eb8e4; */
+}
+body {
+  padding: 2px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.location_input {
+  padding: 10px;
+  border-radius: 4px;
+}
+.search {
+  padding: 16px;
+}
+
+.size {
+  width: auto;
+}
+.City {
+  position: relative;
+  top: 40px;
+  margin: 0 auto;
+  box-shadow: 8px 3px 5px 3px gray;
+  height: 15rem;
+  max-width: 20rem;
+}
+.card-body > :nth-child() {
+  padding: 5px;
+}
